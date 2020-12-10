@@ -1,6 +1,6 @@
 # problem 1
 
-input = File.read('4.input')
+input = File.read('04.input')
 
 passport = ''
 valid_passports = 0

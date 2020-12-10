@@ -1,6 +1,6 @@
 # problem 1
 
-input = File.read('9.input').split("\n").map(&:to_i)
+input = File.read('09.input').split("\n").map(&:to_i)
 
 preamble_size = 25
 

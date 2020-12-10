@@ -1,6 +1,6 @@
 # problem 1
 
-input = File.read('6.input')
+input = File.read('06.input')
 
 acc = ''
 sum = 0

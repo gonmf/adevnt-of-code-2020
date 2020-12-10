@@ -1,6 +1,6 @@
 # problem 1
 
-input = File.read('8.input').split("\n")
+input = File.read('08.input').split("\n")
 
 position = 0
 accumulator = 0

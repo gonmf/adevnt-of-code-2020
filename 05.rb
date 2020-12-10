@@ -12,7 +12,7 @@ def seat(text)
   [row, col, seat_id]
 end
 
-input = File.read('5.input')
+input = File.read('05.input')
 
 max_seat_id = nil
 

@@ -38,3 +38,22 @@ end
 
 puts count_combs(input.max + 3, input, memo)
 
+# problem 2 alternative solution
+
+memo = {}
+
+input.push(input.max + 3)
+
+def count_combs2(curr, goal, input, memo)
+  memo[curr] ||= begin
+    return 1 if curr == goal
+
+    new_currs = input.select { |v| [curr + 1, curr + 2, curr + 3].include?(v) }
+
+    new_currs.map do |c|
+      count_combs2(c, goal, input, memo)
+    end.sum
+  end
+end
+
+puts count_combs2(0, input.max, input, memo)

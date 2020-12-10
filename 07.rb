@@ -1,6 +1,6 @@
 # problem 1
 
-input = File.read('7.input')
+input = File.read('07.input')
 
 def parse_contents(vals)
   number, n0, n1, n2, *remainder = vals
